@@ -1,0 +1,628 @@
+header {
+	.headerTop {
+		padding-top: 20px;
+	}
+	.menuIcon {
+		display: inline-block;
+		vertical-align: middle;
+		cursor: pointer;
+	}
+	.searchIcon {
+		display: inline-block;
+		margin-left: 20px;
+		vertical-align: middle;
+		cursor: pointer;
+		position: relative;
+	}
+	.wishList {
+		margin-right: 26px;
+	    display: inline-block;
+	    cursor: pointer;
+	    margin-top: 3px;
+	}
+	.user {
+		display: inline-block;
+		cursor: pointer;
+	}
+}
+.logo {
+	margin-top: 3px;
+	img {
+		display: inline-block;
+	}
+}
+.navMenu {
+	ul {
+		li  {
+			display: inline-block;
+			padding: 8px 10px;
+			a {
+				color: #000;
+				font-size: 12px;
+				font-weight: 700;
+			}
+		}
+	}
+	&.sideDrowerMenu {
+		position: fixed;
+		width: 300px;
+		left: -300px;
+		top: 0;
+		height: 100%;
+		background: #fff;
+		z-index: 999;
+		transition: all 0.3s ease-in-out;
+		ul {
+			li {
+				&.logo {
+					border-bottom: solid 1px #a6a6a6;
+					margin-top: 10px;
+				}
+				display: block;
+				padding: 16px 20px;
+				a {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+.searchFiled {
+	position: absolute;
+    left: -60px;
+    right: 0;
+    width: 1120px;
+    top: 40px;
+    display: none;
+    transition: all 0.3s ease-in-out;
+	input {
+		width: 100%;
+	    padding: 18px;
+	    height: 60px;
+	    line-height: 60px;
+	    border-radius: 4px;
+	    border: solid 1px #a6a6a6;
+	    font-size: 20px;
+	    font-weight: 700;
+	    color: #737373;
+	}
+}
+.makeItPersonal {
+	margin-bottom: 72px;
+	margin-top: 32px;
+}
+.makeItVideo {
+    width: 100%;
+    max-width: 744px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 82px;
+    &:before {
+	    content: '';
+	    width: 936px;
+	    height: 352px;
+	    background: #fde4d6;
+	    display: block;
+	    position: absolute;
+	    z-index: -1;
+	    left: -96px;
+	    top: -121px;
+	}
+}
+.makeItDetails {
+	h1 {
+		color: #000;
+	    font-size: 140px;
+	    line-height: 60px;
+	    font-weight: 700;
+		span {
+			font-size: 64px;
+			display: block;
+			&:after {
+			    width: 296px;
+			    height: 4px;
+			    background: #000;
+			    content: '';
+			    position: absolute;
+			    top: 30px;
+			    right: 30px;
+			}
+		}
+	}
+	p {
+	    max-width: 530px;
+		padding: 38px 0 0 33px;
+	}
+}
+.asmentCard {
+	 background: #fafafa;
+	 margin-bottom: 20px;
+	.holder {
+		padding: 20px;
+		.title {
+			font-size: 24px;
+			line-height: 32px;
+			color: #000;
+			margin-bottom: 9px;
+			font-weight: 700;
+		}
+		.button {
+			width: 236px;
+			margin: 27px 0 8px;
+		}	
+	}
+}
+.promiseSec {
+	margin: 72px 0;
+	img {
+		display: inline-block;
+	}
+	.topIcon {
+		margin-bottom: 10px;
+	}
+	p {
+		max-width: 744px;
+		margin: 8px auto  16px;
+	}
+	ul {
+		li {
+			display: inline-block;
+			margin-right: 32px;
+			font-size: 16px;
+			color: #000;
+			img {
+				vertical-align: middle;
+				margin-right: 8px;
+			}
+		}
+	}
+}
+.PersonalisedFor {
+	background: #fafafa;
+	padding: 72px 0;
+}
+.PersonalisedBanner {
+	position: relative;
+	max-width: 937px;
+}
+.personalisedCard {
+	width: 100%;
+	padding: 16px;
+	background: #fff;
+	h2 {
+		font-size: 16px;
+	}
+	ul.personalisedTags {
+		li {
+			display: inline-block;
+			font-size: 16px;
+			color: #000;
+			line-height: 26px;
+			border-radius: 8.5px;
+			background: #fde4d6;
+			height: 26px;
+			margin: 6px 4px 6px 0 !important;
+			padding: 0 16px;
+			width: auto !important;
+		}
+	}
+}
+.personalisedSlider {
+    width: 488px;
+    position: absolute;
+    top: 128px;
+    right: -200px;
+    background: #fff;    
+	.owl-dot {
+		position: relative;
+	    left: 32px;
+	    top: -25px;
+	}
+}
+.personalCareSec {
+	margin: 52px 0;
+	h2 {
+		margin-bottom: 8px;
+	}
+	p.text-center {
+		max-width: 744px;
+		margin: 0 auto;
+	}
+}
+.caresIcon {
+	img {
+	    display: inline-block;
+	}
+	p {
+		max-width: 250px;
+		margin: 4px auto 0; 
+	}
+}
+.personalCareIcons {
+    margin: 42px 0 48px;
+}
+.startAssessment {
+    max-width: 936px;
+    border-top: solid 1px #a6a6a6;
+    margin: 0 auto;
+    padding: 48px 0 0;
+    h2 {
+    	font-weight: 400;
+    	span {
+    		font-weight: 700;
+    	}
+    }
+    .secondoryButton {
+	    width: 236px;
+	    margin-top: 16px;
+	}
+}
+.ourResults {
+	h2 {
+		font-size: 108px;
+	    font-weight: 700;
+	    line-height: 1.1;
+		span {
+			font-size: 36px;
+			display: block;
+			text-align: right;
+			padding-right: 20px;
+			&:before {
+				content: '';
+			    width: 176px;
+			    height: 4px;
+			    background-color: #000000;
+			    display: inline-block;
+			    position: relative;
+			    left: -10px;
+			    top: -6px;
+			}
+		}
+	}
+	.ratingNdFeedbk {
+		max-width: 520px;
+		padding: 38px 0 0 10px;
+		p {
+			max-width: none;
+			padding: 0;
+		}
+	}
+	.makeItVideo {
+		&:before {
+			height: 631px;
+		}
+	}
+}
+.rating {
+	margin-bottom: 6px;
+	line-height: 1;
+    .fa-star {
+    	color: #ffbf1d;
+    }
+    span {
+    	margin-right: 2px;
+    }
+}
+.reviewCard {
+    width: 100%;
+    border: solid 1px #f3f3f3;
+    background-color: #fff;
+    padding: 16px;
+    min-height: 181px;
+    .rating {
+    	margin-bottom: 4px;
+    	.fa-star {
+		    color: #ffbf1d;
+		    font-size: 11px;
+		    margin-right: 0;
+		}
+    }
+    .reviewer {
+	    margin-bottom: 11px;
+	    display: block;
+	    font-weight: 700;
+	}
+}
+.reviewSlider {
+	margin-top: 32px;
+	.owl-dots {
+		text-align: center;
+		margin: 8px 0 26px;
+	}
+	.secondoryButton {
+		width: 236px;
+	}
+}
+.brandSec {
+	 margin-bottom: 72px;
+	 h2 {
+	 	font-size: 28px;
+	    line-height: 1.14;
+	    font-weight: 400;
+	    max-width: 495px;
+	    margin: 0 auto 32px;
+	 }
+	.brandlogos {
+		li {
+			display: inline-block;
+			margin-right: 56px;
+		}
+	}
+}
+.instagramPosts {
+	margin-bottom: 72px;
+	img {
+		width: 100%;
+	}
+}
+.footer {
+	background: #000000;
+	color: #fff;
+	padding: 72px 0 0;
+	.logo {
+		text-transform: uppercase;
+		font-size: 32px;
+  		font-weight: 900;
+  		padding-left:0;
+  		margin-bottom: 32px;
+    	line-height: 1;
+	}
+	.needHelp {
+		color: #fff;
+		max-width: 327px;
+		b {
+			display: block;
+		}
+	}
+	.contactWithUs {
+		margin-top: 18px;
+		li {
+			display: inline-block;
+			margin-right: 32px;
+			font-size: 16px;
+			color: #fff;
+			img {
+				display: inline-block;
+				margin-right: 8px;
+				vertical-align: middle;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+	ul {
+		li {
+			a {
+				font-size: 14px;
+				line-height: 1.14;
+				color: #fff;
+			}
+		}
+	}
+	.title {
+		color: #a6a6a6;
+		font-size: 14px;
+		margin-bottom: 6px;
+	}
+	.footerBottom {
+	    border-top: 1px solid #a6a6a6;
+	    margin-top: 60px;
+	    padding: 48px 0 101px;
+	    .fLogo {
+		    display: inline-block;
+		    width: 40px;
+		}
+		.copyRight {
+			font-size: 14px;
+		    display: inline-block;
+		    ul {
+		    	li {
+		    		display: inline-block;
+		    		margin-right: 16px;
+		    		a {
+		    			font-size: 12px;
+		    			text-decoration: underline;
+		    		}
+		    	}
+		    }
+		}
+		.socialLinks {
+			text-align: right;
+			li {
+				display: inline-block;
+				margin-left: 30px;
+			}
+		}
+	}
+}
+@media screen and (min-width: 768px) {
+	header {
+		.headerTop {
+			padding-top: 45px;
+		}
+		.searchIcon {
+			margin-left: 28px;
+		}
+	}
+	.logo {
+		padding-left: 32px;
+	}
+	.navMenu {
+		ul {
+			li  {
+				padding: 22px 32px;
+			}
+		}
+	}
+	.asmentCard {
+		 margin-bottom: 0;
+		.holder {
+			padding: 32px;
+		}
+	}
+	.personalisedCard {
+		width: 100%;
+		padding: 32px;
+		background: #fff;
+		h2 {
+			font-size: 24px;
+		}
+		ul.personalisedTags {
+			li {
+				display: inline-block;
+				font-size: 16px;
+				color: #000;
+				line-height: 26px;
+				border-radius: 8.5px;
+				background: #fde4d6;
+				height: 26px;
+				margin: 16px 4px 16px 0 !important;
+				padding: 0 16px;
+			}
+		}
+	}
+	.personalCareSec {
+		margin: 72px 0;
+	}
+	.reviewCard {
+		min-height: 156px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.navMenu {
+		ul {
+			white-space: nowrap;
+			overflow-x: auto;
+		}
+	}
+	.headerBottom {
+		padding: 10px 0;
+	}
+	.makeItDetails {
+		 h1 {		 	
+		 	font-size: 80px;
+		 	span {
+		 		&:after {
+		 			width: 86px;
+				    top: 36px;
+				    right: 26px;
+		 		}
+		 	}
+		 }
+		 p {		 	
+    		padding: 58px 0 0 0;
+    		line-height: 25px;
+		 }
+	}
+	.makeItVideo {
+		margin-top: 20px;
+		&:before {
+			width: calc(100% + 40px);
+		    left: -20px;
+		    top: -132px;
+		}
+	}
+	.promiseSec {
+		margin: 42px 0;
+		padding: 0 20px;
+		ul {
+			li {
+				display: block;
+				margin: 40px auto;
+				text-align: left;
+				img {
+					 margin-right: 16px;
+				}
+			}
+		}
+	}
+	.PersonalisedFor {
+		background: #fff;
+		padding: 0;
+		ul.mobileCarousel {
+			white-space: nowrap;
+			overflow-x: auto;
+			margin: 0 -20px;
+			padding: 20px;
+			li {
+				width: 300px;
+				display: inline-block;
+				white-space: normal;
+				margin-left: 16px;
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+	.personalisedCard {
+	    box-shadow: 0 1px 3px rgba(36,39,44,.15);
+	}
+	.caresIcon {
+		margin-bottom: 20px;
+	}
+	.ourResults {
+		h2 {
+			font-size: 64px;
+			span {
+				font-size: 26px;
+				text-align: left;
+				padding-right: 0;
+				&:before {				    
+				    width: 66px;				   
+				    left: -4px;
+				}
+			}
+		}		
+	}
+	.reviewSlider {
+		.secondoryButton {
+			margin-top: -16px;
+		}
+	}
+	.brandSec {
+		.brandlogos {
+			white-space: nowrap;
+			overflow: auto;
+			padding: 0 20px;
+			li {
+				display: inline-block;
+				margin-right: 56px;
+			}
+		}
+	}
+	.footer {
+		.contactWithUs {
+			li {
+				margin-right: 20px;
+			}
+		}
+		.footerMenus {
+			.fw_col-xs-12 {
+				margin-bottom: 30px;
+			}
+		}
+		.footerBottom {
+			margin-top: 30px;
+    		padding: 40px 0;
+			.fw_row {
+				display: flex;
+				flex-direction: column-reverse;
+			}
+			.socialLinks {
+				text-align: center;
+				margin-bottom: 30px;
+				li {
+					&:first-child {
+						margin-left: 0;
+					}
+				}
+			}
+		}
+	}
+	.searchFiled {
+		width: 320px;
+		left: -40px;
+	}
+}
